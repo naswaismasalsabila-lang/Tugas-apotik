@@ -1,0 +1,31 @@
+print("===== DAFTAR OBAT APOTEK =====")
+
+obat1 = int(input("Masukkan harga Paracetamol: "))
+print("Paracetamol lebih dari Rp5000:", obat1 > 5000)
+
+obat2 = int(input("\nMasukkan harga Amoxicillin: "))
+print("Amoxicillin kurang dari Rp15000:", obat2 < 15000)
+
+obat3 = int(input("\nMasukkan harga Vitamin C: "))
+print("Vitamin C sama dengan Rp12000:", obat3 == 12000)
+
+obat4 = int(input("\nMasukkan harga OBH Combi: "))
+print("OBH Combi tidak sama dengan Rp10000:", obat4 != 10000)
+
+obat5 = int(input("\nMasukkan harga Antasida: "))
+print("Antasida minimal Rp8000:", obat5 >= 8000)
+
+obat6 = int(input("\nMasukkan harga Promag: "))
+print("Promag maksimal Rp10000:", obat6 <= 10000)
+
+obat7 = int(input("\nMasukkan harga Betadine: "))
+print("Betadine lebih dari Rp10000:", obat7 > 10000)
+
+obat8 = int(input("\nMasukkan harga Bodrex: "))
+print("Bodrex sama dengan Rp5000:", obat8 == 5000)
+
+obat9 = int(input("\nMasukkan harga CTM: "))
+print("CTM kurang dari Rp5000:", obat9 < 5000)
+
+obat10 = int(input("\nMasukkan harga Tolak Angin: "))
+print("Tolak Angin minimal Rp4000:", obat10 >= 4000)
